@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'PPPangramSansRounded';
+  src: url('./fonts/PPPangramSansRounded-Medium.woff2') format('woff2'),
+       url('./fonts/PPPangramSansRounded-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPPangramSansRounded';
+  src: url('./fonts/PPPangramSansRounded-Semibold.woff') format('woff'),
+       url('./fonts/PPPangramSansRounded-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('./fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.footer {
+  background: #f3f6fb;
+  padding: 60px 0 30px;
+  font-family: 'PPPangramSansRounded', 'CircularStd', sans-serif;
+}
+
+.footer-top {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1d2b53;
+  margin-bottom: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  color: #4a5568;
+  text-decoration: none;
+  transition: .2s;
+  font-weight: 500;
+}
+
+.footer-col ul li a:hover {
+  color: #2857ff;
+}
+
+.footer-product-box {
+  width: 220px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.footer-product-box img {
+  width: 100%;
+  display: block;
+}
+
+.footer-product-box .footer-btn {
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2857ff;
+  background: #fff;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #d9e2ef;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  font-family: 'PPPangramSansRounded';
+}
+
+.footer-bottom span {
+  color: #2857ff;
+  font-weight: 700;
+}
+
+.footer-social {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.footer-social a {
+  color: #4a5568;
+  font-size: 16px;
+  transition: .2s;
+}
+
+.footer-social a:hover {
+  color: #2857ff;
+}
+
+@media (max-width: 900px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-product-box {
+    margin-top: 20px;
+  }
+}
