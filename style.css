@@ -468,7 +468,7 @@ body {
 
 
 
-@media (max-width : 600px) {
+@media (max-width : 767px) {
 
     .dropdown-menu {
         padding: 20px 14px !important;
